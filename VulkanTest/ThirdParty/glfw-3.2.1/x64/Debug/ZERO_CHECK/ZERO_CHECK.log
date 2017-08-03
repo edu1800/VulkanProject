@@ -1,0 +1,13 @@
+﻿Build started 2017/2/24 上午 10:41:09.
+     1>Project "D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/?辣/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/?辣/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/?辣/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/?辣/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

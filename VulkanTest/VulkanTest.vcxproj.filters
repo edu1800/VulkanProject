@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{343bb6a3-d26c-468b-9c31-bdd8ddecae3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VulkanRenderSystem">
+      <UniqueIdentifier>{24df4a8f-117c-4890-aa4e-0997f488560a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{f74c3431-7516-4910-87b5-79b4f2850ed3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\include\Camera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\CommonUtil.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Component.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\GameObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\GameObjectManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\HardwareBufferBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\HardwareBufferManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\IndexBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Material.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\MaterialManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\MaterialParameterDefine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Mesh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\MeshManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\MeshRenderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Renderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Resource.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\ResourceManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Root.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Shader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\ShaderManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\ShaderParameter.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Singleton.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Texture.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\TextureManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\VertexBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\VertexIndexData.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\VertexIndexDefine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanData.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanGameObject.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanIndexBuffer.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanRenderer.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanShader.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanTexture.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanUtil.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderSystem\VulkanVertexBuffer.h">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\MeshLoader.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CameraOperation.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Transform.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Light.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\RenderData.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Frustum.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\Compositor.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\include\CompositorManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\BlurEffect.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\ShadowCamera.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\ShadowMap.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\src\Camera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\CommonUtil.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Component.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\GameObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\GameObjectManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\HardwareBufferBase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\HardwareBufferManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\IndexBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Material.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\MaterialManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Mesh.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\MeshManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\MeshRenderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Renderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Resource.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\ResourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Root.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Shader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\ShaderManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\ShaderParameter.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Texture.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\TextureManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Transform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\VertexBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\VertexIndexData.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanData.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanGameObject.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanIndexBuffer.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanRenderer.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanShader.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanTexture.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanUtil.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderSystem\VulkanVertexBuffer.cpp">
+      <Filter>VulkanRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\main.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\MeshLoader.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CameraOperation.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Light.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\RenderData.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Frustum.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Compositor.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\CompositorManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\BlurEffect.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\ShadowCamera.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\ShadowMap.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,166 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.76522261)
+
+newmtl JoinedMaterial_#13
+Kd 0.745098 0.709804 0.67451
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd SP_LUK.JPG
+map_Ka SP_LUK.JPG
+bump sp_luk-bump.JPG
+map_bump sp_luk-bump.JPG
+
+newmtl JoinedMaterial_#10
+Kd 0.713726 0.705882 0.658824
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd 00_SKAP.JPG
+map_Ka 00_SKAP.JPG
+bump 00_SKAP.JPG
+map_bump 00_SKAP.JPG
+
+newmtl sp_01_stub_baza_
+Kd 0.784314 0.784314 0.784314
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 80
+illum 2
+
+newmtl JoinedMaterial_#8
+Kd 0.737255 0.709804 0.670588
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd 01_STUB.JPG
+map_Ka 01_STUB.JPG
+bump 01_STUB-bump.jpg
+map_bump 01_STUB-bump.jpg
+
+newmtl JoinedMaterial_#15
+Kd 0.8 0.784314 0.74902
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd 01_S_BA.JPG
+map_Ka 01_S_BA.JPG
+bump 01_S_BA.JPG
+map_bump 01_S_BA.JPG
+
+newmtl sp_00_luk_mal1
+Kd 0.745098 0.709804 0.67451
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd 01_ST_KP.JPG
+map_Ka 01_ST_KP.JPG
+bump 01_St_kp-bump.jpg
+map_bump 01_St_kp-bump.jpg
+
+newmtl sp_01_stup
+Kd 0.827451 0.8 0.768628
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd X01_ST.JPG
+map_Ka X01_ST.JPG
+
+newmtl sp_00_svod
+Kd 0.941177 0.866667 0.737255
+Ka 0.145098 0.145098 0.145098
+Ks 0.034039 0.032314 0.029333
+Ke 0 0 0
+d 1
+Ns 4
+illum 2
+map_Kd KAMEN-stup.JPG
+map_Ka KAMEN-stup.JPG
+bump KAMEN-stup.jpg
+map_bump KAMEN-stup.jpg
+
+newmtl sp_02_reljef
+Kd 0.529412 0.498039 0.490196
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd RELJEF.JPG
+map_Ka RELJEF.JPG
+bump reljef-bump.jpg
+map_bump reljef-bump.jpg
+
+newmtl JoinedMaterial_#19
+Kd 0.627451 0.572549 0.560784
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd KAMEN.JPG
+map_Ka KAMEN.JPG
+bump KAMEN-bump.jpg
+map_bump KAMEN-bump.jpg
+
+newmtl sp_00_prozor
+Kd 1 1 1
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 200
+illum 2
+map_Kd PROZOR1.JPG
+map_Ka PROZOR1.JPG
+bump PROZOR1.JPG
+map_bump PROZOR1.JPG
+
+newmtl sp_00_vrata_krug
+Kd 0.784314 0.784314 0.784314
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 80
+illum 2
+map_Kd VRATA_KR.JPG
+map_Ka VRATA_KR.JPG
+bump VRATA_KR.JPG
+map_bump VRATA_KR.JPG
+
+newmtl sp_00_vrata_kock
+Kd 0.784314 0.784314 0.784314
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 80
+illum 2
+map_Kd VRATA_KO.JPG
+map_Ka VRATA_KO.JPG
+bump VRATA_KO.JPG
+map_bump VRATA_KO.JPG
+

@@ -1,0 +1,125 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine ª©¥» 12.0.40629.0
+[Microsoft .NET Framework¡Aª©¥» 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. µÛ§@Åv©Ò¦³¡A¨Ã«O¯d¤@¤ÁÅv§Q¡C
+
+¤w¸g¶}©l«Ø¸m©ó 2017/2/24 ¤W¤È 10:38:03¡C
+¸`ÂI 1 (¹w³]¥Ø¼Ð) ¤Wªº±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CompilerIdC\CompilerIdC.vcxproj"¡C
+PrepareForBuild:
+  ¥¿¦b«Ø¥ß¥Ø¿ý "Debug\"¡C
+  ¥¿¦b«Ø¥ß¥Ø¿ý "Debug\CompilerIdC.tlog\"¡C
+InitializeBuildStatus:
+  ¥Ñ©ó«ü©w¤F "AlwaysCreate"¡A¦]¦¹¥¿¦b«Ø¥ß "Debug\CompilerIdC.tlog\unsuccessfulbuild"¡C
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  ¥¿¦b§R°£ÀÉ®× "Debug\CompilerIdC.tlog\unsuccessfulbuild"¡C
+  ¥¿¦bÅÜ§ó®É¶¡ÂW°O "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate"¡C
+±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (¹w³]¥Ø¼Ð) «Ø¸m§¹¦¨¡C
+
+«Ø¸m¦¨¥\¡C
+    0 ­ÓÄµ§i
+    0 ­Ó¿ù»~
+
+¸g¹L®É¶¡ 00:00:00.34
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/æ–‡ä»¶/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/3.7.0-rc2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/æ–‡ä»¶/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7e66d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine ª©¥» 12.0.40629.0
+[Microsoft .NET Framework¡Aª©¥» 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. µÛ§@Åv©Ò¦³¡A¨Ã«O¯d¤@¤ÁÅv§Q¡C
+
+¤w¸g¶}©l«Ø¸m©ó 2017/2/24 ¤W¤È 10:38:04¡C
+¸`ÂI 1 (¹w³]¥Ø¼Ð) ¤Wªº±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\cmTC_7e66d.vcxproj"¡C
+PrepareForBuild:
+  ¥¿¦b«Ø¥ß¥Ø¿ý "cmTC_7e66d.dir\Debug\"¡C
+  ¥¿¦b«Ø¥ß¥Ø¿ý "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\"¡C
+  ¥¿¦b«Ø¥ß¥Ø¿ý "cmTC_7e66d.dir\Debug\cmTC_7e66d.tlog\"¡C
+InitializeBuildStatus:
+  ¥Ñ©ó«ü©w¤F "AlwaysCreate"¡A¦]¦¹¥¿¦b«Ø¥ß "cmTC_7e66d.dir\Debug\cmTC_7e66d.tlog\unsuccessfulbuild"¡C
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e66d.dir\Debug\\" /Fd"cmTC_7e66d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e66d.dir\Debug\\" /Fd"cmTC_7e66d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\cmTC_7e66d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/¤å¥ó/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp/Debug/cmTC_7e66d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/¤å¥ó/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp/Debug/cmTC_7e66d.lib" /MACHINE:X64  /machine:x64 cmTC_7e66d.dir\Debug\testCCompiler.obj
+  cmTC_7e66d.vcxproj -> D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\cmTC_7e66d.exe
+FinalizeBuildStatus:
+  ¥¿¦b§R°£ÀÉ®× "cmTC_7e66d.dir\Debug\cmTC_7e66d.tlog\unsuccessfulbuild"¡C
+  ¥¿¦bÅÜ§ó®É¶¡ÂW°O "cmTC_7e66d.dir\Debug\cmTC_7e66d.tlog\cmTC_7e66d.lastbuildstate"¡C
+±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\cmTC_7e66d.vcxproj" (¹w³]¥Ø¼Ð) «Ø¸m§¹¦¨¡C
+
+«Ø¸m¦¨¥\¡C
+    0 ­ÓÄµ§i
+    0 ­Ó¿ù»~
+
+¸g¹L®É¶¡ 00:00:00.39
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/æ–‡ä»¶/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c5323.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine ª©¥» 12.0.40629.0
+[Microsoft .NET Framework¡Aª©¥» 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. µÛ§@Åv©Ò¦³¡A¨Ã«O¯d¤@¤ÁÅv§Q¡C
+
+¤w¸g¶}©l«Ø¸m©ó 2017/2/24 ¤W¤È 10:38:04¡C
+¸`ÂI 1 (¹w³]¥Ø¼Ð) ¤Wªº±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\cmTC_c5323.vcxproj"¡C
+PrepareForBuild:
+  ¥¿¦b«Ø¥ß¥Ø¿ý "cmTC_c5323.dir\Debug\"¡C
+  ¥¿¦b«Ø¥ß¥Ø¿ý "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\"¡C
+  ¥¿¦b«Ø¥ß¥Ø¿ý "cmTC_c5323.dir\Debug\cmTC_c5323.tlog\"¡C
+InitializeBuildStatus:
+  ¥Ñ©ó«ü©w¤F "AlwaysCreate"¡A¦]¦¹¥¿¦b«Ø¥ß "cmTC_c5323.dir\Debug\cmTC_c5323.tlog\unsuccessfulbuild"¡C
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c5323.dir\Debug\\" /Fd"cmTC_c5323.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c5323.dir\Debug\\" /Fd"cmTC_c5323.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\cmTC_c5323.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/¤å¥ó/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp/Debug/cmTC_c5323.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/¤å¥ó/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeFiles/CMakeTmp/Debug/cmTC_c5323.lib" /MACHINE:X64  /machine:x64 cmTC_c5323.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_c5323.vcxproj -> D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\Debug\cmTC_c5323.exe
+FinalizeBuildStatus:
+  ¥¿¦b§R°£ÀÉ®× "cmTC_c5323.dir\Debug\cmTC_c5323.tlog\unsuccessfulbuild"¡C
+  ¥¿¦bÅÜ§ó®É¶¡ÂW°O "cmTC_c5323.dir\Debug\cmTC_c5323.tlog\cmTC_c5323.lastbuildstate"¡C
+±M®× "D:\¤å¥ó\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\CMakeTmp\cmTC_c5323.vcxproj" (¹w³]¥Ø¼Ð) «Ø¸m§¹¦¨¡C
+
+«Ø¸m¦¨¥\¡C
+    0 ­ÓÄµ§i
+    0 ­Ó¿ù»~
+
+¸g¹L®É¶¡ 00:00:00.41
+
+

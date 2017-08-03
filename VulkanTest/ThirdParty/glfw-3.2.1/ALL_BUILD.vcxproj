@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9ED41A09-14DF-3DEF-A486-C7FAE0C9FC0D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 -BD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 --check-stamp-file D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 -BD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 --check-stamp-file D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 -BD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 --check-stamp-file D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 -BD:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1 --check-stamp-file D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/CMakeLists.txt;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\文件\VulkanTest\VulkanTest\ThirdParty\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/ZERO_CHECK.vcxproj">
+      <Project>5771D415-7141-32AA-8BAC-8F4D98D011BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/boing.vcxproj">
+      <Project>C7CEE975-50D1-3420-A9E4-5A4D9F9BA185</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/clipboard.vcxproj">
+      <Project>692C17AA-B222-3D0A-A3B9-5E353EE9C0D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/cursor.vcxproj">
+      <Project>5667498F-E658-37F7-8A6D-AEC9A7A67A13</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/empty.vcxproj">
+      <Project>44E5C542-33AD-3F71-A455-8E3D0A0F9E98</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/events.vcxproj">
+      <Project>FDEC05BF-B6F0-3526-A344-92750D8CDDD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/gamma.vcxproj">
+      <Project>506E4BE5-44B8-3FE0-AEBC-E95688F3CA09</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/gears.vcxproj">
+      <Project>0628A00F-F5D6-3CE3-B9C4-A3410FF8817B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/src/glfw.vcxproj">
+      <Project>18EAF810-EDBF-34BD-9DFE-E7AC911C6747</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/glfwinfo.vcxproj">
+      <Project>9B605846-2CCB-3E70-9047-AE9EEB2A7BDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/heightmap.vcxproj">
+      <Project>AC67C220-7348-32C2-9664-993E9831160A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/icon.vcxproj">
+      <Project>CE9281B4-3A21-320B-916B-FD8CA5C6B255</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/iconify.vcxproj">
+      <Project>C1832614-EA30-3FC4-9B84-5D0F6C101FD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/joysticks.vcxproj">
+      <Project>CE0CFB68-408F-34CA-AD51-556272F46E0A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/monitors.vcxproj">
+      <Project>2D73E3DB-DAB7-397A-9177-781CBE4FA11F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/msaa.vcxproj">
+      <Project>A0984B08-F07C-38FB-85CA-95F892F28CB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/particles.vcxproj">
+      <Project>9C02C36D-A83E-37C4-B179-03D7CF0F270E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/reopen.vcxproj">
+      <Project>64B6FD51-8F07-3A8D-902C-DDA161D41BE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/sharing.vcxproj">
+      <Project>143AAFA2-CA88-37A4-ABFF-87FD6A85EDCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/simple.vcxproj">
+      <Project>EF2EA7DC-B700-3268-8B1F-F5BA07B6C691</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/splitview.vcxproj">
+      <Project>A5BB508E-7AD2-30A3-BFF9-89156316EC49</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/tearing.vcxproj">
+      <Project>11CFDE46-D527-3CDC-803C-A0F7F322F905</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/threads.vcxproj">
+      <Project>C01AE9FB-F77A-3075-A2FE-DD9E23E1E99F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/timeout.vcxproj">
+      <Project>E3FCEA72-C270-31EF-A5BC-04C1370B1BB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/title.vcxproj">
+      <Project>02A78677-57E8-33CD-8F76-23B40FE2484C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/vulkan.vcxproj">
+      <Project>B1EBAD60-415A-36A8-A45E-465986E4D8A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/examples/wave.vcxproj">
+      <Project>3E6189F6-EC5A-3FFA-A604-C1E7272BC7EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/文件/VulkanTest/VulkanTest/ThirdParty/glfw-3.2.1/tests/windows.vcxproj">
+      <Project>148D4987-0D61-3A6A-8E91-4AAA180E6D9A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
